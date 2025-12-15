@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=3 uid="uid://position_slot_scene"]
+
+[ext_resource type="Script" path="res://position_slot.gd" id="1"]
+
+[node name="PositionSlot" type="PanelContainer"]
+custom_minimum_size = Vector2(140, 120)
+script = ExtResource("1")
+
+[node name="Container" type="VBoxContainer" parent="."]
+layout_mode = 2
+alignment = 1

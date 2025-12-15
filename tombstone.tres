@@ -1,0 +1,19 @@
+[gd_resource type="SpriteFrames" load_steps=2 format=3 uid="uid://drmgsm7yf68bs"]
+
+[ext_resource type="Texture2D" uid="uid://dhd0it5c72p1w" path="res://sprites/tombstone.png" id="1_qyl4u"]
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_qyl4u")
+}],
+"loop": true,
+"name": &"dead",
+"speed": 5.0
+}, {
+"frames": [],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
